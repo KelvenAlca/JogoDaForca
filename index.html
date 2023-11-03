@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo de Adivinhação de Palavras (Forca)</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Jogo de Adivinhação de Palavras (Forca)</h1>
+        <div id="word-container">
+            <div id="word-display"></div>
+        </div>
+        <div id="guesses">
+            <h2>Tentativas Restantes: <span id="remaining-guesses">6</span></h2>
+        </div>
+        <div id="letters">
+            <label for="letter-input">Digite uma letra: </label>
+            <input type="text" id="letter-input" maxlength="1">
+            <button id="guess-button">Tentar</button>
+        </div>
+        <div id="message">
+            <p id="message-text"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
